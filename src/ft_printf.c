@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ft_printf.h"
+#include "../includes/ft_printf.h"
 
 static int	ft_print_arg(va_list args, char c, int fd);
 static int	ft_print_int(int n, int fd);
